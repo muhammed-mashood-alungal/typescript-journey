@@ -23,3 +23,24 @@
 // obj.increament()
 // console.log(obj.count)
 
+
+
+///  Constrained Mixins
+// function LoggerMixin<T extends {new (...args:any[]) : {name:string}}>(Base : T){
+ 
+//     return class extends Base {
+//         log(){
+//             console.log(this.name)
+//         }
+//     }
+// }  
+// class BaseClass {
+//     name:string
+//     constructor(){
+//         this.name = 'mashood'
+//     }
+// }
+// class MixedClass extends LoggerMixin(BaseClass) {}
+
+// const m = new MixedClass()
+// m.log()

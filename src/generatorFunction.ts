@@ -2,6 +2,7 @@ function* printNumbers(upto:number) : IterableIterator<number>{
     let count = 1
     while(count < upto){
         yield count
+        count++
     }
 }
 

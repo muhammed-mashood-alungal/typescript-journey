@@ -17,7 +17,7 @@
 //     readonly y: number;
 //   }
 
-//Index Signatures
+// Index Signatures
 // interface Dictionary {
 //     [key: string] : number
 //   }
@@ -52,13 +52,15 @@
 //     console.log('Counter reset');
 //   };
   
+//   counter(10)
+
 
 // Function Types
 
 // interface Sum {
 //     (a: number, b: number): number;
 //   }
-  
+
 //   const add: Sum = (a, b) => a + b;
   
 

@@ -7,7 +7,7 @@
 // or can be done by
 // function sum<T extends number | string>(param1: T, param2: T): T {
 //     return (param1 as any) + (param2 as any);
-//   }
+// }
 // console.log(sum(10,20))
 // console.log(sum('20','10'))
 ///Multiple Type Parameters
